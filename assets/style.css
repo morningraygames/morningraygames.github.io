@@ -115,7 +115,7 @@ p { margin: 0; }
   background: rgba(255, 181, 71, 0.12); color: var(--sun); font-weight: 800; font-size: 13px;
   letter-spacing: 0.08em; text-transform: uppercase; border: 1px solid rgba(255, 181, 71, 0.25);
 }
-.hero h1 { font-size: clamp(42px, 6.4vw, 76px); margin: 20px 0 20px; }
+.hero h1 { font-size: clamp(42px, 6.4vw, 76px); margin: 0 0 20px; }
 .hero h1 .glow { background: linear-gradient(90deg, var(--sun), var(--coral) 50%, var(--rose)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .hero .lead { font-size: clamp(18px, 2vw, 21px); color: #d4d6f2; max-width: 540px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
